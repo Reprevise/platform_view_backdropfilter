@@ -20,5 +20,6 @@ internal class NativeView(context: Context, id: Int, creationParams: Map<String?
         textView.textSize = 72f
         textView.setBackgroundColor(Color.rgb(255, 255, 255))
         textView.text = "Rendered on a native Android view (id: $id)"
+        textView.setTextColor(Color.rgb(0, 0, 0))
     }
 }
